@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>پروژه سایبر تراک</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</head>
+<body>
+  <div class="dark-toggle">
+    <button class="toggle-button" onclick="toggleDarkMode()">تغییر حالت شب/روز</button>
+  </div>
+
+  <header>
+    <h1>سایبرسپهر</h1>
+    <p>نغمه‌ای از آسمان فناوری</p>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>کاربرد پروژه</h2>
+      <video src="present.mp4" controls class="overview-image"></video>
+      <p>
+        ربات ما نسخه‌ای ابتدایی از ماشین‌های بدون سرنشین است که برای حمل‌ونقل وسایل در فضاهایی مانند مدارس و بیمارستان‌ها، و بررسی و کنترل کیفی لوله‌های آب و گاز طراحی شده است. این ربات قابلیت توسعه برای کمک به افراد دارای معلولیت و اجرای فرماین صوتی را نیز دارد.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>برنامه‌نویسی</h2>
+      <ul>
+        <li>برنامه‌نویسی در محیط Arduino IDE با زبان Cpp(C++) انجام شده است.</li>
+        <li>در این پروژه، کدنویسی به گونه‌ای طراحی شده که ربات بتواند ورودی سنسورها و فرمان‌های صوتی را دریافت کرده و با انتقال آن به آردوینو، عملکردهایی همچون حرکت، توقف و واکنش به دستورات را اجرا نماید.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>طراحی بدنه</h2>
+      <img src="robot.jpg" alt="طراحی بدنه ربات" class="robot-image">
+      <p>
+        بدنه این ربات به‌طور کامل در نرم‌افزار SolidWorks طراحی و سپس به‌صورت یکپارچه با استفاده از پرینتر سه‌بعدی ساخته شده است. فرآیند چاپ این بدنه حدود ۴۵ ساعت زمان برده و از جنس PLA برای حفظ تعادل بین استحکام و وزن سبک استفاده شده است. طراحی دقیق و یکپارچه، علاوه بر زیبایی، مقاومت مناسبی در برابر تنش‌های مکانیکی فراهم کرده و فضایی مناسب برای نصب قطعات داخلی در اختیار می‌گذارد.
+      </p>
+    </div>
+
+
+
+    <div class="section">
+      <h2>دست‌اندرکاران</h2>
+      <ul>
+        <li>سرگروه و برنامه‌نویس: علیرضا دودانگه</li>
+        <li>طراح: محمدپارسا بزرگ‌پور</li>
+        <li>استاد راهنما: جناب آقای صبح خیز</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; علیرضا دودانگه، محمدپارسا بزرگ‌پور
+  </footer>
+</body>
+</html>
